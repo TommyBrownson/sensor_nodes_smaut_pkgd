@@ -1,0 +1,24 @@
+[1.054s] Invoking command in '/home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener': PYTHONPATH=/home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/build --no-deps symlink_data
+[1.382s] running develop
+[1.576s] running egg_info
+[1.576s] creating radar_data_listener.egg-info
+[1.576s] writing radar_data_listener.egg-info/PKG-INFO
+[1.577s] writing dependency_links to radar_data_listener.egg-info/dependency_links.txt
+[1.577s] writing entry points to radar_data_listener.egg-info/entry_points.txt
+[1.578s] writing requirements to radar_data_listener.egg-info/requires.txt
+[1.578s] writing top-level names to radar_data_listener.egg-info/top_level.txt
+[1.578s] writing manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+[1.580s] reading manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+[1.580s] writing manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+[1.585s] running build_ext
+[1.585s] Creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/python3.10/site-packages/radar-data-listener.egg-link (link to .)
+[1.586s] Installing radar_data_listener script to /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/radar_data_listener
+[1.587s] 
+[1.587s] Installed /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener
+[1.588s] running symlink_data
+[1.588s] creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index
+[1.588s] creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index
+[1.589s] creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index/packages
+[1.589s] symbolically linking /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/resource/radar_data_listener -> /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index/packages
+[1.589s] symbolically linking /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/package.xml -> /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/radar_data_listener
+[1.621s] Invoked command in '/home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener' returned '0': PYTHONPATH=/home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/build --no-deps symlink_data

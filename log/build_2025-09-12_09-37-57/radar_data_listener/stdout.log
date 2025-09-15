@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating radar_data_listener.egg-info
+writing radar_data_listener.egg-info/PKG-INFO
+writing dependency_links to radar_data_listener.egg-info/dependency_links.txt
+writing entry points to radar_data_listener.egg-info/entry_points.txt
+writing requirements to radar_data_listener.egg-info/requires.txt
+writing top-level names to radar_data_listener.egg-info/top_level.txt
+writing manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+reading manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+writing manifest file 'radar_data_listener.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/python3.10/site-packages/radar-data-listener.egg-link (link to .)
+Installing radar_data_listener script to /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/lib/radar_data_listener
+
+Installed /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener
+running symlink_data
+creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index
+creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index
+creating /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index/packages
+symbolically linking /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/resource/radar_data_listener -> /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/ament_index/resource_index/packages
+symbolically linking /home/tommy/smaut_sensor_nodes_ws/build/radar_data_listener/package.xml -> /home/tommy/smaut_sensor_nodes_ws/install/radar_data_listener/share/radar_data_listener
