@@ -21,11 +21,14 @@ class TelemetrySubscriber:
         self.socket.connect(self.endpoint)
         self.socket.setsockopt_string(zmq.SUBSCRIBE, topic)#"")
         self.socket.setsockopt(zmq.RCVTIMEO, 50)  # 50ms timeout
+        self.socket.setsockopt(zmq.CONFLATE, 1)  # only keep latest message
 
     def receive_zmq(self):
         """
         Receive a message from the ZMQ socket.
         """
+
+        # Non-blocking receive
         try:
             msg = self.socket.recv(zmq.NOBLOCK)
         except zmq.Again:
